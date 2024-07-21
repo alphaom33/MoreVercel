@@ -69,6 +69,7 @@ export async function getNames() {
 		const out = await sql<thing>`SELECT * FROM stack`;
 		return out.rows;
 	} catch (err) {
-		return { message: "how sad" }
+		console.log("oh no");
 	}
+	return []
 }

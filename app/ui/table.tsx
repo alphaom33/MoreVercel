@@ -2,7 +2,6 @@ import { getNames, thing } from "../lib/data";
 
 export default async function Table() {
 	const things = await getNames();
-	console.log(things);
 
 	return (
 			<table className="text-white w-2/3 relative left-[16%]">
