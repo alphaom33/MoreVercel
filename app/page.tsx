@@ -1,7 +1,6 @@
 import Table from "./ui/table";
-import { killAll, seed, sendEntry } from "./lib/data";
 import Link from "next/link";
-import Button from "./ui/button";
+import Button from "./ui/Button";
 
 export default async function Home() {
 	const style = "h-[200px] p-6 rounded-[0.4rem] text-[100px] text-center";
